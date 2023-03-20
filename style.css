@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.page{
+    margin: auto 0;
+    display: flex;
+    flex-direction: column;
+    font-family: cursive;
+}
+#head{
+    color: aliceblue;
+    background-color: #9fc5f8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 0% 10% 0% 10%;
+}
+.list{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    width:50%;
+    align-items: center;
+}
+.list a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 23px;
+    /* list-style-type: none; */
+
+}
+.city{
+    display: flex;
+    justify-content: space-around;
+    width:100%;
+    align-items: center;
+    padding: 0% 5% 0% 5%;
+}
+.city > h1{
+    margin: 0% 32% 0% 5%;
+} 
+
+#temp{
+    margin: 0% 5% 0% 5%; 
+    width:15% 
+}
+.days{
+    margin: 0 auto;
+    display: flex;
+    margin: 0% 30% 0% 10%;
+}
+.weather{
+    /* border: 1px solid black; */
+    width: 20%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin: 1%;
+    padding: 6%;
+    background-color: #eeeeee;
+}
+.high::after, .low::after {
+    content: "°";
+}
+img{
+    height: 100px;
+    border-radius: 50%;
+}
+#popup{
+    display: flex;
+    border: 2px solid black;
+    box-shadow: 3px 5px 5px black ;
+    margin: 0% 10% 0%;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0%;
+}
+hr{
+    border: 1px solid black;
+    margin: 0% 8% 2% 10%;
+}
+.high{
+    color: red;
+    font-weight: bold;
+}
+.low{
+    color: rgb(0, 102, 255);
+    font-weight: bold;
+}
+button{
+    background-color: #9fc5f8;
+    box-shadow: 3px 5px 5px black ;
+    width: 136%;
+    margin:-46%;
+}
+.text{
+margin: 2%;
+}
+
+.temperature{
+    display: flex;
+    justify-content: space-around;
+
+}
